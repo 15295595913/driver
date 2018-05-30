@@ -1,0 +1,71 @@
+/**index.wxss**/
+@import "../common/css/common.wxss";
+
+
+.header {}
+.header-item {
+  display: inline-block;
+  width: 50%;
+  text-align: center
+}
+
+.topBar {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.topBar div {
+  display: inline-block;
+}
+
+
+.topBar .topBarL {
+  margin-left: 15px;
+}
+.topBar .topBarL button {
+  display: inline-block;
+}
+.topBar .topBarL .topBarL-two {
+  margin-left: 6px;
+}
+.topBar .topBarR {
+  float: right;
+  margin-right: 15px;
+}
+
+
+.body div{
+  display: block;
+}
+
+
+.content-item {
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  float: left;
+}
+.content-item-left {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.content-item-right{
+  float: right;
+}
+.content-item-left image {
+  display:　inline-block;
+  width: 60px;
+  height: 60px;
+}
+.content-item-left,.content-item-right {
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+}
+

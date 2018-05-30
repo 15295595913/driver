@@ -1,0 +1,10 @@
+<view>
+<video class='detailVideo'  src="http://www.w3school.com.cn//i/movie.mp4" controls="controls" binderror="videoErrorCallback"></video>
+</view>
+<view>
+￥8888 从此走上人生巅峰
+</view>
+<view class='footer'>
+<button type='warn'>立即购买</button>
+<button type='primary'>加入购物车</button>
+</view>

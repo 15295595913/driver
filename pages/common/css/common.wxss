@@ -1,0 +1,17 @@
+.t-bottomMenu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: #ccc;
+}
+
+
+.t-bottomMenu-item {
+  display: inline-block;
+  width: 25%;
+  color: red;
+}
+

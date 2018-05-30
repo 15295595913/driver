@@ -1,0 +1,7 @@
+<div class="t-bottomMenu">
+     <navigator class="t-bottomMenu-item" open-type="redirect" url="/pages/index/index?title=1" hover-class="navigator-hover">首页</navigator>
+     <navigator class="t-bottomMenu-item" open-type="redirect" url="/pages/shoppingCart/shoppingCart?title=2" hover-class="navigator-hover">购物车</navigator>
+     <navigator class="t-bottomMenu-item" open-type="redirect" url="/pages/orders/orders?title=3" hover-class="navigator-hover">订单</navigator>
+     <navigator class="t-bottomMenu-item" open-type="redirect" url="/pages/my/my?title=4" hover-class="navigator-hover">我的</navigator>
+</div>
+

@@ -1,0 +1,40 @@
+<!--index.wxml-->
+{{title}}
+<view class="">
+      <div class="header">
+          <div class="header-item">科目二</div> 
+          <div class="header-item">科目三</div>
+      </div>
+      <view class="topBar">
+            <div class="topBarL">
+                <button class="topBarL-one">手动</button>
+                <button class="topBarL-two">自动</button>
+            </div>
+            <div class="topBarR">
+                <picker bindchange="bindCarTypePickerChange" value="{{index}}" range="{{carTypeArray}}">
+                    <view class="picker">
+                      {{carTypeArray[index]}}
+                    </view>
+                </picker>
+            </div>
+            
+      </view>
+      <div class="body">
+          <view wx:key="item.id" wx:for="{{videoArray}}">
+              <div id="{{item.id}}" bindtap="bindViewTap" class="content-item">
+                  <div class="content-item-left">
+                      <image src="{{item.imgUrl}}" />
+                  </div>
+                  <div class="content-item-right">
+                      <div>{{item.title}}</div>
+                      <div>{{item.caption}}</div>
+                      <div>{{item.clickNum}} {{item.publishName}} {{item.time}}</div>
+                  </div>
+              </div>
+              
+          </view>
+      </div>
+        <div class="footer">
+            <include src="../template/bottomMenu.wxml"/>
+        </div>
+</view>

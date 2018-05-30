@@ -1,0 +1,27 @@
+<!--pages/shoppingCart/shoppingCart.wxml-->
+
+<view class="">
+<checkbox-group bindchange="checkboxChange">
+          <view wx:key="item.id" wx:for="{{videoArray}}">
+              <div id="{{item.id}}" bindtap="bindViewTap" class="content-item">
+                  <div class="content-item-left">
+                       <checkbox value="{{item.id}}" checked="{{item.checked}}"/>
+                       <image src="{{item.imgUrl}}" /> 
+                  </div>
+                  <div class="content-item-right">
+                      <div>{{item.title}}</div>
+                      <div>{{item.caption}}</div>
+                      <div>￥{{item.price}}</div>
+                  </div>
+              </div>
+              
+          </view>
+          </checkbox-group>
+  <view class="clearButton"><button type='warn'>结算</button></view>
+  <div class="footer">
+      <include src="../template/bottomMenu.wxml"/>
+  </div>
+  
+  
+</view>
+

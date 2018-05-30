@@ -1,0 +1,8 @@
+<view class="">
+  {{title}}
+  <div class="footer">
+      <include src="../template/bottomMenu.wxml"/>
+  </div>
+  
+  
+</view>
